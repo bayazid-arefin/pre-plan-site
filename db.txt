@@ -1,0 +1,24 @@
+axearefin
+gMPW7B8vtAw05XO9
+mongodb+srv://axearefin:<db_password>@edugrand.kkoa8.mongodb.net/?retryWrites=true&w=majority&appName=Edugrand
+
+{"_id":{"$oid":"6669d36a94c3a20c1954b0e9"},"ehsanId":"1634","userType":"admin","fullName":"A. M. Bayazid Arefin","gender":"Male","dateOfBirth":"2004-11-10","userNumber":"01521723461","homeAddress":"Jiyol, Badalgachhi, Naogoan","userEmail":"web.bayazidarefin@gmail.com","userPassword":"ehsan123","uid":"qgvpKM4AWpcQNgg6FBVKgqSpv7g1","totalEarnMoneyByUser":{"$numberInt":"0"},"createdAt":{"$date":{"$numberLong":"1718211434311"}},"updatedAt":{"$date":{"$numberLong":"1719769119064"}},"__v":{"$numberInt":"0"},"questionGoal":{"$numberInt":"3000"},"paymentAc":"01745185933","paymentMethod":"bkash"}
+
+
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyD6LKywOdw-wkvbUwX8LLPYZ6o3J_vwVhY",
+  authDomain: "edugrand-qb.firebaseapp.com",
+  projectId: "edugrand-qb",
+  storageBucket: "edugrand-qb.firebasestorage.app",
+  messagingSenderId: "66360045670",
+  appId: "1:66360045670:web:8c24cd8b56f0814b063da7"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);

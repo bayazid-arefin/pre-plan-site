@@ -1,0 +1,48 @@
+@font-face {
+  font-family: kalpurush;
+  src: url(./assets/kalpurush.ttf);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: kalpurush;
+}
+
+.hero{
+  padding: 1rem 5%;
+  text-align: center;
+}
+.hero>h1{
+  font-size: 2rem;
+  text-align: center;
+}
+.input_quesitons{
+  width: 100%;
+  height: 420px;
+  font-size: 1.2rem;
+}
+button{
+  outline: none;
+  border: none;
+  padding: 0.54rem 1rem;
+  background-color: black;
+  color: white;
+  margin: 0.5rem 0;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button:hover{
+  background-color: tomato;
+  transition: 0.5s;
+}
+.demo_single_question{
+  text-align: left;
+  padding: 0.5rem 1rem;
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+}
+.demo_single_question> p{
+  font-size: 1.2rem;
+}
